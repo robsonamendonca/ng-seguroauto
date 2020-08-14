@@ -28,5 +28,5 @@ const HOST = 'localhost';
 const PORT = 9000;
 
 const httpServer = app.listen(PORT,HOST,()=> {
-    console.log('Server rodando em http://'+HOST+':'+PORT);
+    console.log('Server rodando... em http://'+HOST+':'+PORT);
 });
